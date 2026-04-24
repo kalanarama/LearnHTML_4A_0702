@@ -3,54 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
     <title>Belajar HTML</title>
 </head>
 <body>
-    <!-- <h1>Hello Word!</h1> -->
     <header>
-        <h1>Belajar dasar HTML</h1>
+        <h1>Nia <span class="accent">.</span></h1>
 
-        <div>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skill">Skill</a></li>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#kontak">Contact</a></li>
-            </ul>
-        </div>
+        <nav>
+            <a href="#about-me" class="aktif">About</a>
+            <a href="#skill">Skill</a>
+            <a href="#project">Project</a>
+            <a href="#kontak">Contact</a>
+        </nav>
+
     </header>
 
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Saya adalah mahasiswa Informatika semester 4 dengan ketertarikan kuat pada data management, sistem
-                informasi, dan pengembangan aplikasi. Memiliki pengalaman dalam pengembangan aplikasi
-                berbasis web, analisis data statistik, serta perancangan sistem dan UI/UX. Terbiasa bekerja
-                dalam tim dan memimpin proyek sebagai ketua maupun project manager. Aktif dalam organisasi
-                kampus dan kompetisi nasional, dengan kemampuan problem solving, manajemen proyek, dan
-                kolaborasi tim yang baik. Siap berkontribusi dalam lingkungan kerja yang dinamis dan berbasis
-                teknologi.
-            </p>
+        <section id="about-me">
+            <div class="hero-kiri">
+                <h2>About Me</h2>
+                <p>Saya adalah mahasiswa iformatika semester 4 dengan ketertarikan kuat pada data management, sistem
+                    informasi, dan pengembangan aplikasi. Memiliki pengalaman dalam pengembangan aplikasi
+                    berbasis web, analisis data statistik, serta perancangan sistem dan UI/UX. Terbiasa bekerja
+                    dalam tim dan memimpin proyek sebagai ketua maupun project manager. Aktif dalam organisasi
+                    kampus dan kompetisi nasional, dengan kemampuan problem solving, manajemen proyek, dan
+                    kolaborasi tim yang baik. Siap berkontribusi dalam lingkungan kerja yang dinamis dan berbasis
+                    teknologi.
+                </p>
+            </div>
 
-            <image src="Pas foto Nia Ramadani-UISI.jpg" width="100px">
+            <div class="hero-kanan">
+                <img src="Pas foto Nia Ramadani-UISI.jpg" width="100px">
+            </div>
+
         </section>
 
         <section id="skill">
             <h2>My Skill</h2>
-            <article>
-                <h4>HTML</h4>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50">
-            </article>
+            <ul>
+                <li>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg "alt="javascript">
+                    <p>JavaScript</p>
+                </li>
 
-            <article>
-                <h4>CSS</h4>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50">
-            </article>
+                <li>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg "alt="javascript">
+                    <p>JavaScript</p>
+                </li>
 
-            <article>
-                <h4>Java</h4>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50">
-            </article>
+                <li>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg "alt="javascript">
+                    <p>JavaScript</p>
+                </li>
+
+                <li>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg "alt="javascript">
+                    <p>JavaScript</p>
+                </li>
+
+                <li>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg "alt="javascript">
+                    <p>JavaScript</p>
+                </li>
+
+                <li>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg "alt="javascript">
+                    <p>JavaScript</p>
+                </li>
+
+                <li>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg "alt="javascript">
+                    <p>JavaScript</p>
+                </li>
+            </ul>
         </section>
 
         <section id="project">
@@ -81,6 +107,8 @@
 
         <section id="kontak">
             <h2>Send me message</h2>
+            
+            <!-- form -->
             <form action="">
                 <div>
                     <label for="">Nama</label>
