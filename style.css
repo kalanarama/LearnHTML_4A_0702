@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: rgba(red, green, blue, alpha);
+    background-color: rgba(26, 28, 32, 0.9);
     padding: 1rem 4.5rem;
     display: flex;
     justify-content: space-between;
